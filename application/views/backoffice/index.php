@@ -18,8 +18,8 @@
 	<!-- CSS -->
 	<link rel="stylesheet" type="text/css"  href="<?php echo base_url() ?>/assets/vendors/styles/core.css">
 	<link rel="stylesheet" type="text/css"  href="<?php echo base_url() ?>/assets/vendors/styles/icon-font.min.css">
-	<link rel="stylesheet" type="text/css"  href="<?php echo base_url() ?>/assets/src/plugins/datatables/css/dataTables.bootstrap4.min.css">
-	<link rel="stylesheet" type="text/css"  href="<?php echo base_url() ?>/assets/src/plugins/datatables/css/responsive.bootstrap4.min.css">
+	<link rel="stylesheet" type="text/css"  href="<?php echo base_url() ?>/assets/plugins/datatables/css/dataTables.bootstrap4.min.css">
+	<link rel="stylesheet" type="text/css"  href="<?php echo base_url() ?>/assets/plugins/datatables/css/responsive.bootstrap4.min.css">
 	<link rel="stylesheet" type="text/css"  href="<?php echo base_url() ?>/assets/vendors/styles/style.css">
 
 	<!-- Global site tag (gtag.js) - Google Analytics -->
@@ -262,13 +262,13 @@
 			<div class="sidebar-menu">
 				<ul id="accordion-menu">
 					<li class="dropdown">
-						<a  href="<?php echo base_url() ?>/assets/javascript:;" class="dropdown-toggle">
+						<a  href="#" class="dropdown-toggle">
 							<span class="micon dw dw-house-1"></span><span class="mtext">Home</span>
 						</a>
 						<ul class="submenu">
-							<li><a  href="<?php echo base_url() ?>/assets/index.html">Dashboard style 1</a></li>
-							<li><a  href="<?php echo base_url() ?>/assets/index2.html">Dashboard style 2</a></li>
-							<li><a  href="<?php echo base_url() ?>/assets/index3.html">Dashboard style 3</a></li>
+							<li><a  href="#">Dashboard style 1</a></li>
+							<li><a  href="#">Dashboard style 2</a></li>
+							<li><a  href="#">Dashboard style 3</a></li>
 						</ul>
 					</li>
 					<li class="dropdown">
@@ -276,13 +276,13 @@
 							<span class="micon dw dw-edit2"></span><span class="mtext">Forms</span>
 						</a>
 						<ul class="submenu">
-							<li><a  href="<?php echo base_url() ?>/assets/form-basic.html">Form Basic</a></li>
-							<li><a  href="<?php echo base_url() ?>/assets/advanced-components.html">Advanced Components</a></li>
-							<li><a  href="<?php echo base_url() ?>/assets/form-wizard.html">Form Wizard</a></li>
-							<li><a  href="<?php echo base_url() ?>/assets/html5-editor.html">HTML5 Editor</a></li>
-							<li><a  href="<?php echo base_url() ?>/assets/form-pickers.html">Form Pickers</a></li>
-							<li><a  href="<?php echo base_url() ?>/assets/image-cropper.html">Image Cropper</a></li>
-							<li><a  href="<?php echo base_url() ?>/assets/image-dropzone.html">Image Dropzone</a></li>
+							<li><a  href="#">Form Basic</a></li>
+							<li><a  href="#">Advanced Components</a></li>
+							<li><a  href="#">Form Wizard</a></li>
+							<li><a  href="#">HTML5 Editor</a></li>
+							<li><a  href="#">Form Pickers</a></li>
+							<li><a  href="#">Image Cropper</a></li>
+							<li><a  href="#">Image Dropzone</a></li>
 						</ul>
 					</li>
 					<li class="dropdown">
@@ -686,11 +686,11 @@
 	<script src="<?php echo base_url() ?>/assets/vendors/scripts/script.min.js"></script>
 	<script src="<?php echo base_url() ?>/assets/vendors/scripts/process.js"></script>
 	<script src="<?php echo base_url() ?>/assets/vendors/scripts/layout-settings.js"></script>
-	<script src="<?php echo base_url() ?>/assets/src/plugins/apexcharts/apexcharts.min.js"></script>
-	<script src="<?php echo base_url() ?>/assets/src/plugins/datatables/js/jquery.dataTables.min.js"></script>
-	<script src="<?php echo base_url() ?>/assets/src/plugins/datatables/js/dataTables.bootstrap4.min.js"></script>
-	<script src="<?php echo base_url() ?>/assets/src/plugins/datatables/js/dataTables.responsive.min.js"></script>
-	<script src="<?php echo base_url() ?>/assets/src/plugins/datatables/js/responsive.bootstrap4.min.js"></script>
+	<script src="<?php echo base_url() ?>/assets/plugins/apexcharts/apexcharts.min.js"></script>
+	<script src="<?php echo base_url() ?>/assets/plugins/datatables/js/jquery.dataTables.min.js"></script>
+	<script src="<?php echo base_url() ?>/assets/plugins/datatables/js/dataTables.bootstrap4.min.js"></script>
+	<script src="<?php echo base_url() ?>/assets/plugins/datatables/js/dataTables.responsive.min.js"></script>
+	<script src="<?php echo base_url() ?>/assets/plugins/datatables/js/responsive.bootstrap4.min.js"></script>
 	<script src="<?php echo base_url() ?>/assets/vendors/scripts/dashboard.js"></script>
 </body>
 </html>
