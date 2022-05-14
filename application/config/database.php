@@ -76,10 +76,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'root',
+	'hostname' => '',
+	'username' => '',
 	'password' => '',
-	'database' => 'usinelaitier',
+	'database' => '',
 	/*
 	'hostname' => '81.19.215.12',
 	'username' => 'guest_2',
