@@ -75,17 +75,17 @@ $query_builder = TRUE;
 
 
 $db['default'] = array(
-	'dsn'	=> '',
-	'hostname' => '',
-	'username' => '',
-	'password' => '',
-	'database' => '',
-	/*
+	// 'dsn'	=> '',
+	// 'hostname' => 'localhost',
+	// 'username' => 'root',
+	// 'password' => '',
+	// 'database' => 'usinelaitier',
+
 	'hostname' => '81.19.215.12',
 	'username' => 'guest_2',
 	'password' => '',
 	'database' => 'guest_2',
-	*/
+
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
