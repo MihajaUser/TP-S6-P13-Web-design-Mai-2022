@@ -13,4 +13,9 @@ class InfoMod extends CI_Model
     {
         $this->db->insert("information", $data);
     }
+    public function supprimer($id)
+    {
+        $this->db->where('id', $id);
+        $this->db->delete('information');
+    }
 }

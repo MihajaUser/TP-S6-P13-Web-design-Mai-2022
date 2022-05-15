@@ -1,9 +1,12 @@
 Options +FollowSymlinks
 RewriteEngine on
 
-
-RewriteRule ^Accueil/(.*)/(.*)-([_a-z0-9A-Z]*)$  Accueil/fiche?idActu=$3&url=$2&cat=$1 [L]
 RewriteRule ^login$  ControllerUsers/accueille [L]
+RewriteRule ^listeInformation$  ControllerInfo/liste [L]
+RewriteRule ^pageAjout$  ControllerInfo/pageAjout [L]
+RewriteRule ^ajoutInformation$  ControllerInfo/ajout [L]
+RewriteRule ^modifierInformation$ ControllerInfo/modifier [L]
+RewriteRule ^supprimerInformation$ ControllerInfo/supprimer [L]
 
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d

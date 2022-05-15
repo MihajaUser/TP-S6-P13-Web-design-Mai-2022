@@ -11,15 +11,15 @@ class ControllerUsers extends CI_Controller
     }
     public function accueille()
     {
+        $data['informations']=	$this->InfoMod->getInformation();
         $user =  $this->UsersMod->checkUsers($this->input->post('email'), sha1($this->input->post('mdp')));
         if (count($user) == 0) {
             $data['errorLogin'] = 1;
-            $data['informations']=	$this->InfoMod->getInformation();
             $this->load->view('frontoffice/index',$data);
         } else {
             $data['page'] = 'acceuille.php';
             $this->session->set_userdata('user', $user);
-            $this->load->view('backoffice/index');
+            $this->load->view('backoffice/template',$data);
         }
       
     }

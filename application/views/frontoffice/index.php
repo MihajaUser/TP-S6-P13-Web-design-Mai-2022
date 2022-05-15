@@ -96,7 +96,7 @@ http://www.templatemo.com/preview/templatemo_426_conquer
         foreach ($informations as $information) {
         ?>
           <div class="col-md-11 col-sm-11" style="margin-bottom: 100px ;">
-            <div class="templatemo_servicebox margin_bottom_1col margin_bottom_2col"><img src="<?php echo base_url() ?>/assets/photo/<?php echo $information['photo'] ?>.jpg" width="400" height="300" alt="logo background">
+            <div class="templatemo_servicebox margin_bottom_1col margin_bottom_2col"><img src="<?php echo base_url() ?>/assets/photo/<?php echo $information['photo'] ?>" width="400" height="300" alt="logo background">
               <div class="templatemo_service_title"><?php echo $information['titre'] ?></div>
               <p><?php echo $information['description'] ?></p>
             </div>
