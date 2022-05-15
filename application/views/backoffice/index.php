@@ -263,7 +263,7 @@
 				<ul id="accordion-menu">
 					<li class="dropdown">
 						<a  href="#" class="dropdown-toggle">
-							<span class="micon dw dw-house-1"></span><span class="mtext">Home</span>
+							<span class="micon dw dw-house-1"></span><span class="mtext">Users</span>
 						</a>
 						<ul class="submenu">
 							<li><a  href="#">Dashboard style 1</a></li>
@@ -272,8 +272,8 @@
 						</ul>
 					</li>
 					<li class="dropdown">
-						<a  href="<?php echo base_url() ?>/assets/javascript:;" class="dropdown-toggle">
-							<span class="micon dw dw-edit2"></span><span class="mtext">Forms</span>
+						<a  href="#" class="dropdown-toggle">
+							<span class="micon dw dw-edit2"></span><span class="mtext">Information</span>
 						</a>
 						<ul class="submenu">
 							<li><a  href="#">Form Basic</a></li>
@@ -285,164 +285,17 @@
 							<li><a  href="#">Image Dropzone</a></li>
 						</ul>
 					</li>
+				 
 					<li class="dropdown">
-						<a  href="<?php echo base_url() ?>/assets/javascript:;" class="dropdown-toggle">
-							<span class="micon dw dw-library"></span><span class="mtext">Tables</span>
-						</a>
-						<ul class="submenu">
-							<li><a  href="<?php echo base_url() ?>/assets/basic-table.html">Basic Tables</a></li>
-							<li><a  href="<?php echo base_url() ?>/assets/datatable.html">DataTables</a></li>
-						</ul>
-					</li>
-					<li>
-						<a  href="<?php echo base_url() ?>/assets/calendar.html" class="dropdown-toggle no-arrow">
-							<span class="micon dw dw-calendar1"></span><span class="mtext">Calendar</span>
-						</a>
-					</li>
-					<li class="dropdown">
-						<a  href="<?php echo base_url() ?>/assets/javascript:;" class="dropdown-toggle">
-							<span class="micon dw dw-apartment"></span><span class="mtext"> UI Elements </span>
-						</a>
-						<ul class="submenu">
-							<li><a  href="<?php echo base_url() ?>/assets/ui-buttons.html">Buttons</a></li>
-							<li><a  href="<?php echo base_url() ?>/assets/ui-cards.html">Cards</a></li>
-							<li><a  href="<?php echo base_url() ?>/assets/ui-cards-hover.html">Cards Hover</a></li>
-							<li><a  href="<?php echo base_url() ?>/assets/ui-modals.html">Modals</a></li>
-							<li><a  href="<?php echo base_url() ?>/assets/ui-tabs.html">Tabs</a></li>
-							<li><a  href="<?php echo base_url() ?>/assets/ui-tooltip-popover.html">Tooltip &amp; Popover</a></li>
-							<li><a  href="<?php echo base_url() ?>/assets/ui-sweet-alert.html">Sweet Alert</a></li>
-							<li><a  href="<?php echo base_url() ?>/assets/ui-notification.html">Notification</a></li>
-							<li><a  href="<?php echo base_url() ?>/assets/ui-timeline.html">Timeline</a></li>
-							<li><a  href="<?php echo base_url() ?>/assets/ui-progressbar.html">Progressbar</a></li>
-							<li><a  href="<?php echo base_url() ?>/assets/ui-typography.html">Typography</a></li>
-							<li><a  href="<?php echo base_url() ?>/assets/ui-list-group.html">List group</a></li>
-							<li><a  href="<?php echo base_url() ?>/assets/ui-range-slider.html">Range slider</a></li>
-							<li><a  href="<?php echo base_url() ?>/assets/ui-carousel.html">Carousel</a></li>
-						</ul>
-					</li>
-					<li class="dropdown">
-						<a  href="<?php echo base_url() ?>/assets/javascript:;" class="dropdown-toggle">
-							<span class="micon dw dw-paint-brush"></span><span class="mtext">Icons</span>
-						</a>
-						<ul class="submenu">
-							<li><a  href="<?php echo base_url() ?>/assets/font-awesome.html">FontAwesome Icons</a></li>
-							<li><a  href="<?php echo base_url() ?>/assets/foundation.html">Foundation Icons</a></li>
-							<li><a  href="<?php echo base_url() ?>/assets/ionicons.html">Ionicons Icons</a></li>
-							<li><a  href="<?php echo base_url() ?>/assets/themify.html">Themify Icons</a></li>
-							<li><a  href="<?php echo base_url() ?>/assets/custom-icon.html">Custom Icons</a></li>
-						</ul>
-					</li>
-					<li class="dropdown">
-						<a  href="<?php echo base_url() ?>/assets/javascript:;" class="dropdown-toggle">
+						<a  href="#" class="dropdown-toggle">
 							<span class="micon dw dw-analytics-21"></span><span class="mtext">Charts</span>
 						</a>
 						<ul class="submenu">
-							<li><a  href="<?php echo base_url() ?>/assets/highchart.html">Highchart</a></li>
-							<li><a  href="<?php echo base_url() ?>/assets/knob-chart.html">jQuery Knob</a></li>
-							<li><a  href="<?php echo base_url() ?>/assets/jvectormap.html">jvectormap</a></li>
-							<li><a  href="<?php echo base_url() ?>/assets/apexcharts.html">Apexcharts</a></li>
+							<li><a  href="#">Highchart</a></li>
+							<li><a  href="#">jQuery Knob</a></li>
+							<li><a  href="#">jvectormap</a></li>
+							<li><a  href="#">Apexcharts</a></li>
 						</ul>
-					</li>
-					<li class="dropdown">
-						<a  href="<?php echo base_url() ?>/assets/javascript:;" class="dropdown-toggle">
-							<span class="micon dw dw-right-arrow1"></span><span class="mtext">Additional Pages</span>
-						</a>
-						<ul class="submenu">
-							<li><a  href="<?php echo base_url() ?>/assets/video-player.html">Video Player</a></li>
-							<li><a  href="<?php echo base_url() ?>/assets/login.html">Login</a></li>
-							<li><a  href="<?php echo base_url() ?>/assets/forgot-password.html">Forgot Password</a></li>
-							<li><a  href="<?php echo base_url() ?>/assets/reset-password.html">Reset Password</a></li>
-						</ul>
-					</li>
-					<li class="dropdown">
-						<a  href="<?php echo base_url() ?>/assets/javascript:;" class="dropdown-toggle">
-							<span class="micon dw dw-browser2"></span><span class="mtext">Error Pages</span>
-						</a>
-						<ul class="submenu">
-							<li><a  href="<?php echo base_url() ?>/assets/400.html">400</a></li>
-							<li><a  href="<?php echo base_url() ?>/assets/403.html">403</a></li>
-							<li><a  href="<?php echo base_url() ?>/assets/404.html">404</a></li>
-							<li><a  href="<?php echo base_url() ?>/assets/500.html">500</a></li>
-							<li><a  href="<?php echo base_url() ?>/assets/503.html">503</a></li>
-						</ul>
-					</li>
-
-					<li class="dropdown">
-						<a  href="<?php echo base_url() ?>/assets/javascript:;" class="dropdown-toggle">
-							<span class="micon dw dw-copy"></span><span class="mtext">Extra Pages</span>
-						</a>
-						<ul class="submenu">
-							<li><a  href="<?php echo base_url() ?>/assets/blank.html">Blank</a></li>
-							<li><a  href="<?php echo base_url() ?>/assets/contact-directory.html">Contact Directory</a></li>
-							<li><a  href="<?php echo base_url() ?>/assets/blog.html">Blog</a></li>
-							<li><a  href="<?php echo base_url() ?>/assets/blog-detail.html">Blog Detail</a></li>
-							<li><a  href="<?php echo base_url() ?>/assets/product.html">Product</a></li>
-							<li><a  href="<?php echo base_url() ?>/assets/product-detail.html">Product Detail</a></li>
-							<li><a  href="<?php echo base_url() ?>/assets/faq.html">FAQ</a></li>
-							<li><a  href="<?php echo base_url() ?>/assets/profile.html">Profile</a></li>
-							<li><a  href="<?php echo base_url() ?>/assets/gallery.html">Gallery</a></li>
-							<li><a  href="<?php echo base_url() ?>/assets/pricing-table.html">Pricing Tables</a></li>
-						</ul>
-					</li>
-					<li class="dropdown">
-						<a  href="<?php echo base_url() ?>/assets/javascript:;" class="dropdown-toggle">
-							<span class="micon dw dw-list3"></span><span class="mtext">Multi Level Menu</span>
-						</a>
-						<ul class="submenu">
-							<li><a  href="<?php echo base_url() ?>/assets/javascript:;">Level 1</a></li>
-							<li><a  href="<?php echo base_url() ?>/assets/javascript:;">Level 1</a></li>
-							<li><a  href="<?php echo base_url() ?>/assets/javascript:;">Level 1</a></li>
-							<li class="dropdown">
-								<a  href="<?php echo base_url() ?>/assets/javascript:;" class="dropdown-toggle">
-									<span class="micon fa fa-plug"></span><span class="mtext">Level 2</span>
-								</a>
-								<ul class="submenu child">
-									<li><a  href="<?php echo base_url() ?>/assets/javascript:;">Level 2</a></li>
-									<li><a  href="<?php echo base_url() ?>/assets/javascript:;">Level 2</a></li>
-								</ul>
-							</li>
-							<li><a  href="<?php echo base_url() ?>/assets/javascript:;">Level 1</a></li>
-							<li><a  href="<?php echo base_url() ?>/assets/javascript:;">Level 1</a></li>
-							<li><a  href="<?php echo base_url() ?>/assets/javascript:;">Level 1</a></li>
-						</ul>
-					</li>
-					<li>
-						<a  href="<?php echo base_url() ?>/assets/sitemap.html" class="dropdown-toggle no-arrow">
-							<span class="micon dw dw-diagram"></span><span class="mtext">Sitemap</span>
-						</a>
-					</li>
-					<li>
-						<a  href="<?php echo base_url() ?>/assets/chat.html" class="dropdown-toggle no-arrow">
-							<span class="micon dw dw-chat3"></span><span class="mtext">Chat</span>
-						</a>
-					</li>
-					<li>
-						<a  href="<?php echo base_url() ?>/assets/invoice.html" class="dropdown-toggle no-arrow">
-							<span class="micon dw dw-invoice"></span><span class="mtext">Invoice</span>
-						</a>
-					</li>
-					<li>
-						<div class="dropdown-divider"></div>
-					</li>
-					<li>
-						<div class="sidebar-small-cap">Extra</div>
-					</li>
-					<li>
-						<a  href="<?php echo base_url() ?>/assets/javascript:;" class="dropdown-toggle">
-							<span class="micon dw dw-edit-2"></span><span class="mtext">Documentation</span>
-						</a>
-						<ul class="submenu">
-							<li><a  href="<?php echo base_url() ?>/assets/introduction.html">Introduction</a></li>
-							<li><a  href="<?php echo base_url() ?>/assets/getting-started.html">Getting Started</a></li>
-							<li><a  href="<?php echo base_url() ?>/assets/color-settings.html">Color Settings</a></li>
-							<li><a  href="<?php echo base_url() ?>/assets/third-party-plugins.html">Third Party Plugins</a></li>
-						</ul>
-					</li>
-					<li>
-						<a  href="https://dropways.github.io/deskapp-free-single-page-website-template/" target="_blank" class="dropdown-toggle no-arrow">
-							<span class="micon dw dw-paper-plane1"></span>
-							<span class="mtext">Landing Page <img src="<?php echo base_url() ?>/assets/vendors/images/coming-soon.png" alt="" width="25"></span>
-						</a>
 					</li>
 				</ul>
 			</div>

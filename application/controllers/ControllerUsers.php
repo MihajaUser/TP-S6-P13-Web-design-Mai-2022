@@ -13,12 +13,13 @@ class ControllerUsers extends CI_Controller
         // $user =  $this->UsersMod->checkUsers($this->input->post('email'), sha1($this->input->post('mdp')));
         // if (count($user) == 0) {
         //     $data['errorLogin'] = 1;
-        //     $this->load->view('login/login',$data);
+        //     $this->load->view('frontoffice/index',$data);
         // } else {
         //     $data['page'] = 'acceuille.php';
         //     $this->session->set_userdata('user', $user);
-        //     $this->load->view('template', $data);
+        //    // $this->load->view('template', $data);
+             $this->load->view('backoffice/index');
         // }
-        $this->load->view('backoffice/index');
+      
     }
 }
