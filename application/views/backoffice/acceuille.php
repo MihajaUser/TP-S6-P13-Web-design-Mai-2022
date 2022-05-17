@@ -5,6 +5,8 @@
 			<th class="table-plus datatable-nosort">Photo</th>
 			<th>Titre</th>
 			<th>Description</th>
+			<?php
+			?>
 			<th></th>
 			<th></th>
 		</tr>
@@ -21,7 +23,7 @@
 					<form><input type="button" class="btn btn-secondary" value="modifier"></form>
 				</td>
 				<td>
-					<form action="<?php echo site_url('') ?>/supprimerInformation" method="post">
+					<form action="<?php echo site_url('') ?>/supprimerInformation-rechauffement-climatique" method="post">
 						<input type="hidden" name="idInformation" value="<?php echo $information['id'] ?>">
 						<input type="submit" class="btn btn-danger" value="supprimer">
 					</form>

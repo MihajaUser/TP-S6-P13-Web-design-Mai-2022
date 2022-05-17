@@ -23,8 +23,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://localhost/TP-S6-P13-Web-design-Mai-2022/';
 
+ //$config['base_url'] = 'http://localhost/TP-S6-P13-Web-design-Mai-2022';
+$config['base_url'] = 'https://rechauffement1309.herokuapp.com';
 /*
 |--------------------------------------------------------------------------
 | Index File
@@ -158,7 +159,8 @@ $config['composer_autoload'] = FALSE;
 | DO NOT CHANGE THIS UNLESS YOU FULLY UNDERSTAND THE REPERCUSSIONS!!
 |
 */
-$config['permitted_uri_chars'] = 'a-z 0-9~%.:_\-';
+//$config['permitted_uri_chars'] = 'a-z 0-9~%.:_\-';
+$config['permitted_uri_chars'] = '';
 
 /*
 |--------------------------------------------------------------------------

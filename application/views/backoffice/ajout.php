@@ -3,7 +3,7 @@
     <h2 class="h4 pd-20"> Ajout information</h2>
     <div class="card" style="width: 50%;">
       <div class="card-body" style="margin-left: 20%;">
-      <form action="<?php echo site_url('')?>ajoutInformation" method="post" enctype="multipart/form-data">
+      <form action="<?php echo site_url('')?>ajoutInformation-rechauffement-climatique" method="post" enctype="multipart/form-data">
       <input type="text"  name ="titre" placeholder="Titre"  class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
       <br />
       <br />

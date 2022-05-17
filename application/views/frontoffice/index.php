@@ -1,9 +1,4 @@
 <!DOCTYPE html>
-<!-- 
-Conquer Template
-http://www.templatemo.com/preview/templatemo_426_conquer
--->
-
 <head>
   <title>home</title>
   <meta name="keywords" content="">
@@ -53,10 +48,10 @@ http://www.templatemo.com/preview/templatemo_426_conquer
               <div id="top-menu">
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                   <ul class="nav navbar-nav">
-                    <li><a class="menu" href="#templatemo_home_page">Home</a></li>
-                    <li><a class="menu" href="#templatemo_service_page">actualité</a></li>
+                    <li><a class="menu" href="<?php echo site_url()?>/home-rechauffement-climatique">Home</a></li>
+                    <li><a class="menu" href="<?php echo site_url()?>/actualite-rechauffement-climatique">actualité</a></li>
                     <li><a class="menu" href="#templatemo_contact_page">Contacts</a></li>
-                    <li><a class="menu" href="#templatemo_work_page">Se connecter</a></li>
+                    <li><a class="menu" href="<?php echo site_url()?>/pageLogin-rechauffement-climatique">Se connecter</a></li>
                   </ul>
                 </div>
               </div>
@@ -88,69 +83,15 @@ http://www.templatemo.com/preview/templatemo_426_conquer
   <!-- header end -->
   <div class="clear"></div>
   <!-- service start -->
-  <div class="templatemo_servicewrapper" id="templatemo_service_page">
+  <div >
     <div class="container">
       <div class="row">
-        <h1>actualité</h1>
-        <?php
-        foreach ($informations as $information) {
-        ?>
-          <div class="col-md-11 col-sm-11" style="margin-bottom: 100px ;">
-            <div class="templatemo_servicebox margin_bottom_1col margin_bottom_2col"><img src="<?php echo base_url() ?>/assets/photo/<?php echo $information['photo'] ?>" width="400" height="300" alt="logo background">
-              <div class="templatemo_service_title"><?php echo $information['titre'] ?></div>
-              <p><?php echo $information['description'] ?></p>
-            </div>
-          </div>
-        <?php
-        }
-        ?>
+      <?= include($page);?>
       </div>
     </div>
   </div>
   <!-- service end -->
-  <div class="clear"></div>
-
-  <div class="clear"></div>
-  <!-- team start -->
-  <div class="templatemo_contactwrapper" id="templatemo_work_page">
-    <div class="container">
-      <div class="row" style="background-color:coral">
-        <h1>login</h1>
-      </div>
-    </div>
-
-    <div class="container templatemo_contactmargin">
-      <div class="row">
-        <form action="<?php echo site_url("/login") ?>" method="post">
-          <div class="col-md-7"  >
-            <div class="col-md-7">
-              <h2 style="text-align:center;color:red;">ADMIN LOGIN </h2>
-            </div>
-            <div class="col-md-7">
-              <input type="text" name="email" value="randrianarisoalalatianaantonio@gmail.com" id="email" class="email" placeholder="email">
-            </div>
-            <div class="col-md-7">
-              <input type="password" name="mdp" value="mdp" id="name" class="name" placeholder="mot de passe">
-            </div>
-            <?php if (isset($errorLogin)) {
-            ?>
-              <div class="col-md-7">
-                <h2 style="color:red;"> mot de passe incorrect</h2>
-              </div>
-            <?php  }
-            ?>
-            <div class="col-md-7">
-              <input type="submit" name="send" value="se connecter" id="submit" class="button templatemo_sendbtn">
-            </div>
-          </div>
-        </form>
-        <div class="col-md-5 offset-1">
-        <img src="<?php echo base_url() ?>/assets/photo/planete.jpg" width="400" height="300" alt="logo background">
-        </div>
-      </div>
-    </div>
-  </div>
-
+  
   <!-- contact start -->
   <div class="templatemo_contactwrapper" id="templatemo_contact_page">
     <div class="container">

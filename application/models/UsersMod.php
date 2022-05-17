@@ -11,7 +11,6 @@ class UsersMod extends CI_Model
 
     public function checkUsers($email,$mdp){
         $request="select * from admin where email = '" .$email."'  and mdp = '".$mdp."'";
-        echo $request;
         $query = $this->db->query($request);
         return $query->result_array();
     }

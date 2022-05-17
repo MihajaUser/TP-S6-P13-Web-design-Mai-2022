@@ -31,7 +31,7 @@ class ControllerInfo extends CI_Controller
         $this->load->library('upload', $config);
         if ($this->upload->do_upload('photo')) {
             $insert = array(
-                'id' => 'null',
+                'id' => '',
                 'titre' => $this->input->post('titre'),
                 'description' => $this->input->post('description'),
                 'photo' => $_FILES['photo']['name']
@@ -42,7 +42,6 @@ class ControllerInfo extends CI_Controller
             print_r($this->upload->display_errors());
         }
     }
-
     public function supprimer()
     {
         $this->InfoMod->supprimer($this->input->post('idInformation'));

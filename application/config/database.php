@@ -74,10 +74,17 @@ $active_group = 'default';
 $query_builder = TRUE;
 
 $db['default'] = array(
+	/*
+	'dsn'	=> '',
+	'hostname' => 'localhost',
+	'username' => 'root',
+	'password' => '',
+	'database' => 'rechauffement',
+	*/
 	'dsn'	=> '',
 	'hostname' => '81.19.215.12',
 	'username' => 'guest_2',
-	'password' => '*5I2mls8',
+	'password' => 'pQsx421$',
 	'database' => 'guest_2',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',

@@ -9,18 +9,30 @@ class ControllerUsers extends CI_Controller
         $this->load->model('UsersMod');
         $this->load->model('InfoMod');
     }
+    public function pageLogin()
+    {
+        $data['page'] = 'login.php';
+        $this->load->view('frontoffice/index', $data);
+    }
+    public function details($id, $titre, $description, $photo)
+    {
+        $informations = array('id' => $id, 'titre' => $titre, 'description' => $description, 'photo' => $photo);
+        $data['information'] = $informations;
+        $data['page'] = 'details.php';
+        $this->load->view('frontoffice/index', $data);
+    }
     public function accueille()
     {
-        $data['informations']=	$this->InfoMod->getInformation();
+        $data['informations'] =    $this->InfoMod->getInformation();
         $user =  $this->UsersMod->checkUsers($this->input->post('email'), sha1($this->input->post('mdp')));
         if (count($user) == 0) {
             $data['errorLogin'] = 1;
-            $this->load->view('frontoffice/index',$data);
+            $data['page'] = 'actualite.php';
+            $this->load->view('frontoffice/index', $data);
         } else {
             $data['page'] = 'acceuille.php';
             $this->session->set_userdata('user', $user);
-            $this->load->view('backoffice/template',$data);
+            $this->load->view('backoffice/template', $data);
         }
-      
     }
 }
